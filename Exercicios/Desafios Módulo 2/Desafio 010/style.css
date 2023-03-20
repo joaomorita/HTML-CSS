@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #36AD4E;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(63, 253, 63, 0.856), rgb(6, 126, 6));
+    margin: -21px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 10px 10px auto;
+    padding: 0px 0px 0px 25px;
+}
+
+nav > a:hover {
+    background-color: rgb(147, 243, 160);
+}
+
+main {
+    background-color: white;
+    margin: 21px auto 10px auto;
+    padding: 15px;
+    width: 60%;
+}
+
+main > h1 {
+    text-align: left;
+    font-family: 'android', Times, serif;
+    font-size: 1.5em;
+    color: #267A37;
+}
+
+main > h2 {
+    text-align: left;
+    font-family: 'android', Times, serif;
+    color: #267A37;
+}
+
+main > p {
+    font-size: 1em;
+    text-indent: 2em;
+    text-align: justify;
+    margin: auto;
+}
+
+main > picture > img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+picture {
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+div#verde {
+    background-color: #267A37;
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}   
+
+iframe {
+    width: 70%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+div#box {
+    background-color: #45b65c;
+    padding: 0.5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div#box > p {
+    font: 1em;
+    padding-left: 5px;
+    color: white;
+}
+
+div#box2 {
+    background-color: rgba(113, 175, 125, 0.314);
+    padding: 0.5px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -10px;
+}
+
+div#box2 > p {
+    font-size: 1em;
+    text-indent: 2em;
+    padding-left: 15px;
+}
+
+div#box2 > ul {
+    list-style-type: "\2714";  
+}
+
+
+div#box2 > div.caixa1 {
+    display: inline-block;
+    margin-top: -180px;
+    width: 60%;
+    float: right;
+}
+
+div#box2 > div.caixa1 > ul.caixa2 {
+    list-style-type: "\2714";  
+}
+
+main > p.qsefooter {
+    margin-top: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #267A37;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+}
+
+footer > p {
+    color: white;
+}
