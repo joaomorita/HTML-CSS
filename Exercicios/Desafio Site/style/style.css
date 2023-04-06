@@ -1,5 +1,15 @@
 @chartset "UTF-8";
 
+@font-face {
+  font-family: 'ninja';
+  src: url('/fontes/njnaruto.ttf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  --fonte-ninja: 'ninja', cursive;
+}
+
 body{
     background: url('https://wallpaperaccess.com/full/2725557.jpg') center center no-repeat fixed; 
     -webkit-background-size: cover;
@@ -8,10 +18,14 @@ body{
     background-size: cover;
   }
 
+  a.externo::after {
+    content: '\1F4CE';
+  }
+
   main {
     background-color: rgba(255, 255, 255, 0.753);
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 400px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
@@ -20,7 +34,13 @@ body{
 
   main h1 {
     text-align: center;
-    background-color: antiquewhite;
+    background-image: linear-gradient(to right, #F29F05, #F25C05);
+    border-radius: 10px 0px;
+    color: #ffffff;
+  }
+
+  main h2 {
+    font-family: var(--fonte-ninja);
   }
 
   main p {
@@ -55,7 +75,7 @@ body{
     align-content: center;
   }
 
-  main p#espaço-imagem {
+  main p.espaço-imagem {
     margin-left: 10px;
     margin-top: 5%;
   }
