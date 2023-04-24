@@ -1,0 +1,26 @@
+@charset "UFT-8";
+
+header {
+    background-color: black;
+    background-size: 100% 100%;
+    min-height: 150px;
+    padding: 30px;
+
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
