@@ -1,26 +1,75 @@
 @charset "UFT-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+
 header {
     background-color: black;
-    background-size: 100% 100%;
-    min-height: 150px;
-    padding: 30px;
-
-}
-
-header h1 {
-    color: white;
-    text-align: center;
-    margin-top: 2%;
-}
-
-header p {
     color: white;
     text-align: center;
 }
 
-header a {
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: 'Sriracha', cursive;
+}
+
+a {
+    color: white;
     text-decoration: none;
-    color: white;
-    
+    font-weight: bolder;
+    transition: 0.1s;
 }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+section.imagem > p {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.24);
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
