@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            border: 1px dashed grey;
+            background-color: lightgrey;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnomes {
+            background-color: rgb(157, 255, 59);
+        }
+
+        col.csex {
+            background-color: pink;
+        }
+
+        col.c-idade {
+            background-color: aquamarine;
+        }
+
+        col.cprof {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnomes">
+            <col class="csex">
+            <col class="c-idade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>31</td>
+                <td>Encanador</td>
+            </tr>
+            <tr>
+                <td>Alessandra</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Recepcionista</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>M</td>
+                <td>25</td>
+                <td>Garçom</td>
+            </tr>
+            <tr>
+                <td>Nicole</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Enfermeira</td>
+            </tr>
+            <tr>
+                <td>Renata</td>
+                <td>F</td>
+                <td>26</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Vitor</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Designer</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
