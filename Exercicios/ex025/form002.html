@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: #3065ac;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+        }
+
+        form {
+            text-align: center;
+            border: 15px solid #add8e7;
+            border-radius: 20px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p id="usuario">
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="7" maxlength="15" size="15" placeholder="Minimo 7 caracteres">
+        </p>
+        <p id="senha">
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="14" size="14" placeholder="Minimo 8 caracteres">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
