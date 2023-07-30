@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Notícias</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Internacional</a></li>
+                <li><a href="#">Fale conosco</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Esportes - Arsenal inaugura estátua para Arsène Wenger!</h2>
+            <p>O Arsenal inaugurou no Estádio Emirates, em Londres, a estátua em homenagem ao técnico Arsène Wenger, que comandou o time no período mais vitorioso da história do clube, por 22 anos. A estátua de bronze com 3,5 metros de altura e peso de 500kg foi posicionada perto da entrada do setor norte da arena.</p>
+
+            <p>Arsène Wenger foi o técnico do time principal masculino do Arsenal entre outubro de 1996 e maio de 2018. Durante esse período, o time inglês venceu a Premier League três vezes — sendo uma dela de forma invicta —, conquistou sete títulos da Copa da Inglaterra e garantiu a equipe na Champions League em 20 temporadas consecutivas.</p>
+
+            <figure><img src="https://s2-ge.glbimg.com/9ThYRd1D5wvO4D5Xfi-dzk0JJWY=/0x0:4745x3459/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/l/F/IsLafATaCC5LrfmBfsyw/gettyimages-1576373701.jpg" alt="Estatua de Arsene Wenger"><figcaption>Estátua de Arsèsne Wenger no Emirates Stadium</figcaption>
+            </figure>
+
+            <p>— Durante os 22 anos de Arsène no clube, ele foi o técnico em incríveis 1235 jogos, transformando nossa identidade com a sua visão sobre como o futebol é jogado, e é identificado pela criação do "Arsenal moderno"— declarou o clube, em comunicado oficial na sexta-feira.</p>
+
+            <figure>
+                <img src="https://cdn.resfu.com/media/img_news/collage-de-imagen-de-wenger-y-la-estatua-que-hay-en-el-emirates-stadium--afp-arsenal.jpg" alt="Arséne Wenger">
+                <figcaption>A esquerda Arséne Wenger enquanto reinador e a direita sua estátua</figcaption>
+            </figure>
+
+            <p>A estátua, criada pelo escultor Jim Guy, retrata Arsène Wenger comemorando a conquista da Premier League, com o troféu nas mãos. Essa é a sexta peça do tipo no Emirates. As outras são de Tony Adams, Dennis Bergkamp, Herbert Chapman, Ken Friar e Thierry Henry.</p>
+
+            <figure>
+                <img src="imagens/wenger1.jpg" alt="Estátua Arséne Wenger">
+                <figcaption>Estátua de Wenger e ao fundo o Emirates Stadium</figcaption>
+            </figure>
+
+            <p>Arsène Wenger será o convidado de honra do jogo da próxima quarta-feira entre Arsenal e Monaco, no Emirates.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
